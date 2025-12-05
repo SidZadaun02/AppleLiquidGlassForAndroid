@@ -1,0 +1,6 @@
+com.sidzadaun.liquidglass
+attr lg_blurRadius
+attr lg_cornerRadius
+attr lg_overlayColor
+attr lg_useFallback
+styleable LiquidGlassView lg_blurRadius lg_cornerRadius lg_overlayColor lg_useFallback

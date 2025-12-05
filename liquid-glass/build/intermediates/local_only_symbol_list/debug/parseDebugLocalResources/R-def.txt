@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+attr? lg_blurRadius
+attr? lg_cornerRadius
+attr? lg_overlayColor
+attr? lg_useFallback
+styleable LiquidGlassView lg_blurRadius lg_overlayColor lg_cornerRadius lg_useFallback

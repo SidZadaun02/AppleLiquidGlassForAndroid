@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LiquidGlassView">
+        <attr name="lg_blurRadius" format="float" />
+        <attr name="lg_overlayColor" format="color" />
+        <attr name="lg_cornerRadius" format="dimension" />
+        <attr name="lg_useFallback" format="boolean" />
+    </declare-styleable>
+</resources>
