@@ -1,9 +1,0 @@
-int attr lg_blurRadius 0x0
-int attr lg_cornerRadius 0x0
-int attr lg_overlayColor 0x0
-int attr lg_useFallback 0x0
-int[] styleable LiquidGlassView { 0x0, 0x0, 0x0, 0x0 }
-int styleable LiquidGlassView_lg_blurRadius 0
-int styleable LiquidGlassView_lg_cornerRadius 1
-int styleable LiquidGlassView_lg_overlayColor 2
-int styleable LiquidGlassView_lg_useFallback 3
