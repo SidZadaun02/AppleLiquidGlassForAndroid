@@ -4,7 +4,19 @@ A high-performance, **Apple-style Liquid Glass** (VisionOS/iOS blur) library for
 This library creates a stunning, interactive glass effect with **real-time background blur**, **magnification (zoom)**, and **vibrancy boost**, mimicking the premium materials found in modern Apple interfaces.
 
 ![Liquid Glass Demo](https://via.placeholder.com/800x400?text=Liquid+Glass+Preview) 
-*(Replace this with a real screenshot/GIF of your app)*
+
+<!-- 
+To add a video demo:
+1. Record your screen and save it as 'demo.mp4' or 'demo.gif'.
+2. Place the file in the 'assets' folder of this repository.
+3. Uncomment the line below (GitHub supports drag-and-drop video uploads in issues too, which gives you a link).
+-->
+
+<!-- 
+<video src="assets/demo.mp4" width="800" controls></video> 
+OR for GIF:
+![Demo](assets/demo.gif)
+-->
 
 ## ✨ Features
 
