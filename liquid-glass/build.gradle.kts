@@ -10,7 +10,7 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.github.sidzadaun"
+                groupId = "com.github.SidZadaun02"
                 artifactId = "liquid-glass"
                 version = "1.0.0"
             }
