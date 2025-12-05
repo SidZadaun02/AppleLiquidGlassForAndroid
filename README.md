@@ -12,8 +12,8 @@ To add a video demo:
 3. Uncomment the line below (GitHub supports drag-and-drop video uploads in issues too, which gives you a link).
 -->
 
-<!-- 
 <video src="assets/demo.mp4" width="800" controls></video> 
+<!-- 
 OR for GIF:
 ![Demo](assets/demo.gif)
 -->
