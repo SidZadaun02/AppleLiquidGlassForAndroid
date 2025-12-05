@@ -1,5 +1,7 @@
 # Apple Liquid Glass for Android 🍎💧
 
+[![](https://jitpack.io/v/SidZadaun02/AppleLiquidGlassForAndroid.svg)](https://jitpack.io/#SidZadaun02/AppleLiquidGlassForAndroid)
+
 A high-performance, **Apple-style Liquid Glass** (VisionOS/iOS blur) library for Android. 
 This library creates a stunning, interactive glass effect with **real-time background blur**, **magnification (zoom)**, and **vibrancy boost**, mimicking the premium materials found in modern Apple interfaces.
 
