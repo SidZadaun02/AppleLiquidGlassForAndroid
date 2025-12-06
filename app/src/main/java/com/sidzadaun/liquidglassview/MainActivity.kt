@@ -8,8 +8,6 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -40,6 +38,7 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
+import androidx.core.graphics.toColorInt
 import com.sidzadaun.liquidglass.LiquidGlassView
 import com.sidzadaun.liquidglassview.ui.theme.LiquidGlassViewTheme
 import kotlin.math.roundToInt
@@ -133,12 +132,15 @@ fun LiquidGlassDemo(modifier: Modifier = Modifier) {
                 factory = { context ->
                     LiquidGlassView(context).apply {
                         setupWithActivityRoot()
-                        setRadius(15f)
+                        setRadius(5f)
                         setZoom(1.2f)
-                        setGlassColor(android.graphics.Color.parseColor("#20FFFFFF")) // More transparent
+                        setGlassColor("#20FFFFFF".toColorInt()) // More transparent
+                        // Set corner radius to 8dp
+                        val density = context.resources.displayMetrics.density
+                        setCornerRadius(12f * density)
                         
                         val textView = TextView(context).apply {
-                            text = "Drag Me"
+                            text = ""
                             setTextColor(android.graphics.Color.BLACK)
                             textSize = 20f
                             layoutParams = FrameLayout.LayoutParams(
